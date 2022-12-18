@@ -6,6 +6,7 @@ const App = () => {
   let throwErrorFunction;
   let errorGenerator = () => {
     throwErrorFunction(true);
+    // console.log(true);
   };
 
   let changeFunc = (updateError) => {
